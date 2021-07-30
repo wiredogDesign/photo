@@ -118,12 +118,25 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/dist/gfx/cats-are-not-important.jpg": {
+	"/dist/gfx/cats-are-not-important_l.jpg": {
 		"ft": 16384,
 		"iS": 46669,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/dist/gfx/cats-are-not-important.jpg",
+		"oAP": "/dist/gfx/cats-are-not-important_l.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/gfx/cats-are-not-important_s.jpg": {
+		"ft": 16384,
+		"iS": 43295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/gfx/cats-are-not-important_s.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -284,12 +297,12 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/dist/img/large/DSCF4945.jpg": {
+	"/dist/img/large/DSCF4621.jpg": {
 		"ft": 16384,
-		"iS": 178130,
+		"iS": 116256,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/dist/img/large/DSCF4945.jpg",
+		"oAP": "/dist/img/large/DSCF4621.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -537,6 +550,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/large/DSCF9267.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/large/DSCF9490.jpg": {
+		"ft": 16384,
+		"iS": 232099,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/large/DSCF9490.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -817,12 +843,12 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/dist/img/small/DSCF4945.jpg": {
+	"/dist/img/small/DSCF4621.jpg": {
 		"ft": 16384,
-		"iS": 45325,
+		"iS": 36813,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/dist/img/small/DSCF4945.jpg",
+		"oAP": "/dist/img/small/DSCF4621.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1070,6 +1096,19 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/dist/img/small/DSCF9267.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/dist/img/small/DSCF9490.jpg": {
+		"ft": 16384,
+		"iS": 64595,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/dist/img/small/DSCF9490.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

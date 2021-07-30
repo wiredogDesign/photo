@@ -39,7 +39,7 @@ header {
     height: 50vh;
     padding: 1em;
     /* overflow: hidden; stops position:sticky from working */
-    background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important.jpg");
+    background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important_l.jpg");
 }
 
 .logo-container {
@@ -206,7 +206,7 @@ footer {
     header {
         height: 40vh;
         padding-top: .5em;
-        background-size: 100%;
+        background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important_s.jpg");
     }
 
     .logo-container {
