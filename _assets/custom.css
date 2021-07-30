@@ -206,7 +206,7 @@ footer {
     header {
         height: 40vh;
         padding-top: .5em;
-        background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important_s.jpg");
+        background: 0 0 / contain no-repeat fixed url("../../dist/gfx/cats-are-not-important_s.jpg");
     }
 
     .logo-container {
