@@ -27,8 +27,8 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/_assets\/custom-min.js",
-      "oF" : 0,
+      "oAP" : "\/dist\/js\/custom-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -1318,28 +1318,6 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/js\/fancybox-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dist\/js\/fancybox-nojq-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/js\/fancybox-nojq-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dist\/js\/jquery-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/dist\/js\/jquery-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

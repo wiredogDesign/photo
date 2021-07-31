@@ -1,1 +1,1 @@
-var images=$(".thumbnail-trigger").length;$(".image-counter").text(images),$("footer").click((function(e){$(".info").toggleClass("show-info")}));
+var trigger=document.querySelector("footer"),info=document.querySelector(".info");function toggleClass(){info.classList.toggle("show-info")}trigger.addEventListener("click",toggleClass);

@@ -1,9 +1,7 @@
-// get and display image count
-var images = $('.thumbnail-trigger').length
-$('.image-counter').text(images);
+var trigger = document.querySelector('footer');
+var info = document.querySelector('.info');
 
-
-$('footer').click(function (e) { 
-    // e.preventDefault();
-    $('.info').toggleClass('show-info');
-});
+function toggleClass() {
+    info.classList.toggle('show-info');
+}
+trigger.addEventListener('click', toggleClass)
