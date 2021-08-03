@@ -5,7 +5,7 @@
     --black:        hsl(0, 0%, 20%);
     --shadow:       hsla(0, 0%, 27%, 0.35);
     --limpid:       hsla(0, 0%, 100%, 0.8);
-    --margins:      0.2vw;
+    --margins:      0.5vw;
 }
 
 @keyframes turnhead {
@@ -46,8 +46,8 @@ header {
 .logo-container {
     position: sticky;
     top: 1em;
-    width: 12vw; 
-    height: 12vw;
+    width: 10vw; 
+    height: 10vw;
     background: center/contain no-repeat url("../../dist/gfx/logo_animated.svg");
     filter: drop-shadow(0 0 6px white);
     transform: rotate(45deg);
@@ -69,21 +69,16 @@ main {
     justify-content: center;
     /* gap: .3rem; doesn't work on safari */
     min-height: 100vh;
-    margin: 1em 0.5em;
+    margin: var(--margins);
     background: white;
 }
 
  main::after {
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	/* width: 4.5rem; */
-	/* height: 1.5rem; */
 	position: absolute;
 	top: -2em;
 	left: -0.5em;
-    padding: 0.5em;
-	font-size: 1.2rem;
+    padding: 0 0.4em .1em 0.7em;
+	font-size: 2vw;
     color: var(--grey-mid);
     content: attr(data-image-counter);
     background: hsl(0, 0%, 100%);
@@ -97,7 +92,7 @@ main {
     overflow: hidden;
     cursor: zoom-in;
     color: inherit;
-    border: 1rem solid white;
+    border: var(--margins) solid white;
     /* will-change: filter, transform; */
 }
 
@@ -205,6 +200,10 @@ footer {
 
     main {
         justify-content: initial;
+    }
+
+    main:after {
+        font-size: 1.3em;
     }
 
     .thumbnail-trigger {
