@@ -88,12 +88,12 @@ main {
     flex: 1 0 auto;
     position: relative;
     max-width: 420px;
-    /* margin: var(--margins); */
     overflow: hidden;
     cursor: zoom-in;
     color: inherit;
     border: var(--margins) solid white;
-    /* will-change: filter, transform; */
+    filter: saturate(.5);
+    transition: filter .2s linear;
 }
 
 .thumbnail-trigger > img {
@@ -103,13 +103,11 @@ main {
     object-fit: cover;
     vertical-align: middle;
     filter: saturate(.5);
-    transform: scale(1, 1); /* needs two values for safari - not percent */
-    transition: filter .2s linear, transform .2s linear;
+    /* transform: scale(1, 1);  needs two values for safari - not percent */
 }
 
-.thumbnail-trigger > img:hover {
+.thumbnail-trigger:hover {
     filter: saturate(1);
-    transform: scale(1.05, 1.05);
 }
 
 .thumbnail-trigger.last-image > img {
@@ -121,7 +119,7 @@ main {
     bottom: -10rem;
     width: 100%;
     margin: -5px 0 1px;
-    padding: 6px 2px;
+    padding: 0.4em;
     font-variation-settings: "wght" 400;
     background: var(--limpid);
     transition: bottom 0.4s ease-in-out;
