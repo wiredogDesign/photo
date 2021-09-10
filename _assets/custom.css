@@ -43,6 +43,17 @@ header {
     background: right 0 / cover no-repeat fixed url("../../dist/gfx/cats-are-not-important_l.jpg");
 }
 
+header::after {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 0 0.4em;
+	font-size: 1.8vw;
+	color: var(--grey-mid);
+	content: attr(data-image-counter);
+	background: #fff;
+}
+
 .logo-container {
     position: sticky;
     top: 1em;
@@ -71,17 +82,6 @@ main {
     min-height: 100vh;
     margin: var(--margins);
     background: white;
-}
-
- main::after {
-	position: absolute;
-	top: -2em;
-	left: -0.5em;
-    padding: 0 0.4em .1em 0.7em;
-	font-size: 2vw;
-    color: var(--grey-mid);
-    content: attr(data-image-counter);
-    background: hsl(0, 0%, 100%);
 }
 
 .thumbnail-trigger {
